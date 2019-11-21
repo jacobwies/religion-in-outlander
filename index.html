@@ -1,3 +1,99 @@
 <html>
-<h1>Hello! This is my project.</h1>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<style>
+		body {
+			font-family: palatino linotype;
+			background-color: black;
+			color: white;
+		}
+		p {
+			font-size: 18px;
+		}
+		.container {
+			scroll-snap-type: y mandatory;
+			overflow-y: scroll;
+			height: 100%;
+		}
+		.section {
+			margin: 40px 20px 40px 20px;
+			padding: 20px 20px 20px 20px;
+			background-color: rgba(50, 50, 50, 0.5);
+			overflow: auto;
+			scroll-snap-align: start;
+		}
+		.left-section p, .left-section h1 {
+			width: 50%;
+		}
+		.right-section p, .right-section h1 {
+			margin-left: 50%;
+		}
+		.left-section img {
+			float: right;
+			width: 45%;
+			-webkit-mask-image:-webkit-gradient(linear, right bottom, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      		mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+		}
+		.right-section img {
+			float: left;
+			width: 45%;
+			-webkit-mask-image:-webkit-gradient(linear, left bottom, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      		mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+		}
+	</style>
+	<body>
+		<div class="container">
+			<div class="section">
+				<h1>Religion 170 Final Project - Jacob Wiesenthal</h1>
+			</div>
+			<div class="section left-section">
+				<img src="claire_and_jaime.jpg">
+				<h1>Religion in Outlander: Catchy subtitle</h1>
+				<p>Outlander defies orthodox representations of pagans in popular culture by immersing its audience in a world where paganism is embedded in everyday life. Paganism, particularly in the Scottish Highlands, serves to preserve cultural identities when they are challenged. I will look at two cases in Outlander, the observance of pagan traditions in Clan MacKenzie to resist British colonization, and how the main protagonist, Claire, reassesses her spirituality after being transported to a place where she must balance her previous faiths with newfound forces that contradict them.</p>
+			</div>
+			<div class="section right-section">
+				<img src="castle_leoch.jpg">
+				<h1>Introduction</h1>
+				<p>In the early 18th century, the Scottish Highlands was the setting for fierce conflict between Scottish natives and British efforts to enforce a stronger grasp over the entirety of the Isles. Following three centuries in which England conquered Scotland and incorporated it into its kingdom, a tributary system was established to allow Scottish clans to operate on their own accord, on the condition that they supply the crown with various goods and comply with the British military's strict oversight.</p>
+				<p></p>
+			</div>
+			<div class="section right-section">
+				<img src="murtagh.jpg">
+				<h2>Thesis</h2>
+				<p>My thesis.</p>
+			</div>
+			<div class="section left-section">
+				<img src="murtagh.jpg">
+				<h2>Background</h2>
+				<p>Define key terms and characters.</p>
+			</div>
+			<div class="section right-section">
+				<img src="murtagh.jpg">
+				<h2>Paganism in Popular Culture</h2>
+				<p>Explain how paganism it typically presented.</p>
+			</div>
+			<div class="section left-section">
+				<img src="murtagh.jpg">
+				<h2>Paganism in Outlander</h2>
+				<p>How does Outlander present paganism at a broad level?</p>
+			</div>
+			<div class="section right-section">
+				<img src="murtagh.jpg">
+				<h2>Example 1</h2>
+				<p>Explanation of example 1.</p>
+			</div>
+			<div class="section left-section">
+				<img src="murtagh.jpg">
+				<h2>Example 2</h2>
+				<p>Explanation of example 2.</p>
+			</div>
+			<div class="section right-section">
+				<img src="murtagh.jpg">
+				<h2>Example 3</h2>
+				<p>Explanation of example 3.</p>
+			</div>
+		</div>
+	<body>
+	<script>
+
+	</script>
 </html>
