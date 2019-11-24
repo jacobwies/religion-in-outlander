@@ -3,112 +3,155 @@
 	<style>
 		body {
 			font-family: palatino linotype;
-			background-color: black;
-			color: white;
+			background-color: #C0B7B1;
+			color: black;
 		}
 		p, li {
-			font-size: 16px;
+			font-size: 14px;
+			line-height: 1.5;
 		}
 		.container {
 			scroll-snap-type: y mandatory;
 			overflow-y: scroll;
 			height: 100%;
 		}
+		.center {
+			width: 50%;
+			margin: 0 auto;
+			background-color: #EFEDE8;
+		}
 		.section {
-			margin: 20px 20px 20px 20px;
-			background-color: rgba(50, 50, 50, 0.5);
+			--margin: 20px 20px 20px 20px;
+			--background-color: rgba(50, 50, 50, 0.5);
 			overflow: auto;
-			scroll-snap-align: center;
-			scroll-snap-stop: always;
+			--scroll-snap-align: center;
+			--scroll-snap-stop: always;
 		}
 		.section div {
-			padding: 20px 20px 20px 20px;
+			padding: 20px 50px 20px 50px;
 		}
-		.left-section p, .left-section h1 {
-			width: 50%;
-		}
-		.right-section p, .right-section h1 {
-			margin-left: 50%;
-		}
-		.left-section img, .left-section iframe {
-			float: right;
-			-webkit-mask-image:-webkit-gradient(linear, right bottom, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-      		mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
-		}
-		.right-section img, .right-section iframe {
-			float: left;
-			-webkit-mask-image:-webkit-gradient(linear, left bottom, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-      		mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+		.section img, .section iframe {
+			display: block;
+			margin: 0 auto;
 		}
 	</style>
 	<body>
 		<div class="container">
-			<div class="section">
-				<div>
-					<h1>Religion 170 Final Project - Jacob Wiesenthal</h1>
+			<h1 style="margin-top: 0;">Religion 170 Final Project - Jacob Wiesenthal</h1>
+			<div class="center">
+				<div class="section">
+					<img src="claire_and_jaime.jpg" style="width: 70%;">
+					<div>
+						<h1>Religion in Outlander:</h1>
+						<h2>Paganism and Preservation</h2>
+					</div>
 				</div>
-			</div>
-			<div class="section left-section">
-				<img src="claire_and_jaime.jpg" style="width: 70%;">
-				<div>
-					<h1>Religion in Outlander: Catchy subtitle</h1>
+				<div class="section">
+					<img src="castle_leoch.jpg" style="width: 45%;">
+					<div>
+						<h1>Introduction</h1>
+						<p><i>"There’s no place on earth with more of the old superstitions and magic mixed into its daily life than the Scottish Highlands" - Outlander, 6</i></p>
+						<p>In the early 18th century, the Scottish Highlands was the setting for fierce conflict between Scottish natives and British efforts to enforce a stronger grasp over the entirety of the Isles. Following three centuries in which England conquered Scotland and incorporated it into its kingdom, a tributary system was established to allow Scottish clans to operate on their own accord, on the condition that they supply the crown with various goods and comply with the British military's strict oversight.</p>
+						<p>Fast forward 200 years and we meet an English combat nurse named Claire Randall in <i>Outlander</i>, a drama television series adapted from a historical fiction novel by Diana Gabaldon. Following the conclusion of World War II, Claire and her husband Frank decide to take a vacation in Inverness, Scotland. During her time there, Claire secretly witnesses a group of women dancing around a stone circle at Craigh na Dun, which unbeknownst to her at the time was worshipped by local Celtic religious traditions. The next day, however, she would soon realize its significance as she touches one of the stones and is suddenly transported into the past – more specifically the physical epicenter of tensions between the Scottish and the British in the 18th century, the clan lands of Ross-shire, Scotland.</p>
+						<p><i>Outlander</i> follows Claire’s journey in this foreign world as she must assimilate into a traditional Scottish society, and simultaneously must come to reckon how she could have met this seemingly magical fate that contradicts her previous faiths in Protestantism and science. It’s in this period of uncertainty for Claire that she, and the audience through her perspective, experiences a lifestyle heavily influenced by the Celtic Paganism that had long epitomized the Scottish Highlands, yet was now being altered by British-sponsored Roman Catholicism. As we’ll explore throughout this page, <i>Outlander</i> offers an uncommon look into the dynamics of these pagan religious traditions and how many looked to religion to preserve their cultural identities in a time of vulnerability.</p>
+					</div>
 				</div>
-			</div>
-			<div class="section left-section">
-				<img src="castle_leoch.jpg" style="width: 45%;">
-				<div>
-					<h1>Introduction</h1>
-					<p><i>"There’s no place on earth with more of the old superstitions and magic mixed into its daily life than the Scottish Highlands" - Outlander, 6</i></p>
-					<p>In the early 18th century, the Scottish Highlands was the setting for fierce conflict between Scottish natives and British efforts to enforce a stronger grasp over the entirety of the Isles. Following three centuries in which England conquered Scotland and incorporated it into its kingdom, a tributary system was established to allow Scottish clans to operate on their own accord, on the condition that they supply the crown with various goods and comply with the British military's strict oversight.</p>
-					<p>Fast forward 200 years and we meet an English combat nurse named Claire Randall in <i>Outlander</i>, a drama television series adapted from a historical fiction novel by Diana Gabaldon. Following the conclusion of World War II, Claire and her husband Frank decide to take a vacation in Inverness, Scotland. During her time there, Claire secretly witnesses a group of women dancing around a stone circle at Craigh na Dun, which unbeknownst to her at the time was worshipped by local Celtic religious traditions. The next day, however, she would soon realize its significance as she touches one of the stones and is suddenly transported into the past – more specifically the physical epicenter of tensions between the Scottish and the British in the 18th century, the clan lands of Ross-shire, Scotland.</p>
-					<p><i>Outlander</i> follows Claire’s journey in this foreign world as she must assimilate into a traditional Scottish society, and simultaneously must come to reckon how she could have met this seemingly magical fate that contradicts her previous faiths in Protestantism and science. It’s in this period of uncertainty for Claire that she, and the audience through her perspective, experiences a lifestyle heavily influenced by the Celtic Paganism that had long epitomized the Scottish Highlands, yet was now being syncretized by British-sponsored Roman Catholicism. As we’ll explore throughout this page, <i>Outlander</i> offers an uncommon look into the dynamics of these pagan religious traditions and how Scottish clans looked to religion to preserve their cultural identities in a time of vulnerability.</p>
+				<div class="section">
+					<img src="jaime_gathering.jpg" style="width: 45%;">
+					<div>
+						<h1>Thesis</h1>
+						<p>The Scottish Highlands of the 18th century was a point of syncretic conflict, where Roman Catholicism melded with traditional pagan traditions at the influence of contemporary cultural and political changes. Outlander transports us to a world where, despite a modern perspective through the time-travelling protagonist, we accept a reality of magic after witnessing an inexplicable event and better empathize with the Highlander societies through living out their struggles. At the same time, we see the Highlanders embrace innovations of science and Catholicism alongside their traditions, rather than choosing one or the other. It’s in this way that Outlander highlights the pagan practices of these people not as a counterfactual to Catholicism and modernization, but rather as a foundation by which they were able preserve their cultural values and identities as they adopted new institutions from the world around them.</p>
+					</div>
 				</div>
-			</div>
-			<div class="section right-section">
-				<img src="jaime_gathering.jpg" style="width: 45%;">
-				<div>
-					<h1>Thesis</h1>
-					<p>The Scottish Highlands of the 18th century was a point of syncretic conflict, where Roman Catholicism melded with traditional pagan traditions at the influence of contemporary cultural and political changes. Outlander transports us to a world where, despite a modern perspective through the time-travelling protagonist, we question our doubts of magic after witnessing an inexplicable event and better empathize with the Highlander societies through living out their struggles. At the same time, we see science save the life of a young boy and Catholicism closely intertwined with the show’s most romantic and treasured moments. It’s in this way that Outlander highlights the pagan practices of these people not as a counterfactual to Catholicism and modernization, but rather as a foundation by which they were able preserve their cultural values and identities as they adopted new institutions from the world around them.</p>
+				<div class="section">
+					<img src="samhain_witch.jpg" style="width: 30%;">
+					<div>
+						<h1>Background</h1>
+						<p>Define key terms and characters.</p>
+						<h2>Key Terminology</h2>
+						<p><b>Paganism</b> – While the term “paganism” can be used to describe a wide range of religious practices, I use it in this page to specifically refer to the Celtic polytheistic traditions portrayed in <i>Outlander</i> which were prevalent in the Scottish Highlands dating back as far as 500 BCE and have remained ingrained in much of Scottish culture even today. The Scottish Pagan Foundation describes three core attitudes and beliefs of these practices:</p>
+						<ul>
+							<li>"Love for and Kinship with Nature. Reverence for the life force and its ever-renewing cycles of life and death."</li>
+							<li>"A positive morality, in which the individual is responsible for the discovery and development of their true nature in harmony with the outer world and community.”</li>
+							<li>"Recognition of the Divine, which transcends gender, acknowledging both the female and male aspect of Deity."</li>
+						</ul>
+						<p><b>Syncretism</b> – Religious syncretism is the process of molding multiple religious belief systems into one, often in the form of one being sanctioned upon the other(s) as an effect of cultural or political changes in society. In the case of <i>Outlander</i>, pagan traditions of the Highlands were blended with Roman Catholicism at the will of the British attempting to acclimatize the Scottish into English rule.</p>
+					</div>
 				</div>
-			</div>
-			<div class="section left-section">
-				<img src="samhain_witch.jpg" style="width: 30%;">
-				<div>
-					<h1>Background</h1>
-					<p>Define key terms and characters.</p>
-					<h2>Key Terminology</h2>
-					<p><b>Paganism</b> – While the term “paganism” can be used to describe a wide range of religious practices, I use it in this page to specifically refer to the Celtic polytheistic traditions portrayed in <i>Outlander</i> which were prevalent in the Scottish Highlands dating back as far as 500 BCE and have remained ingrained in much of Scottish culture even today. The Scottish Pagan Foundation describes three core attitudes and beliefs of these practices:</p>
-					<ul>
-						<li>"Love for and Kinship with Nature. Reverence for the life force and its ever-renewing cycles of life and death."</li>
-						<li>"A positive morality, in which the individual is responsible for the discovery and development of their true nature in harmony with the outer world and community.”</li>
-						<li>"Recognition of the Divine, which transcends gender, acknowledging both the female and male aspect of Deity."</li>
-					</ul>
-					<p><b>Syncretism</b> – Religious syncretism is the process of molding multiple religious belief systems into one, often in the form of one being sanctioned upon the other(s) as an effect of cultural or political changes in society. In the case of <i>Outlander</i>, pagan traditions of the Highlands were blended with Roman Catholicism at the will of the British attempting to acclimatize the Scottish into English rule.</p>
+				<div class="section">
+					<img src="bard.jpg" style="width: 47%;">
+					<div>
+						<h1>Balnain: Storytelling and the Unknown</h1>
+						<p>The act of storytelling has always been an integral part of Celtic pagan traditions, as bards and seanachies have for generations been charged with recording Scottish history and the folktales that lend it spirit. As Outlander is itself storytelling, there is often a charming juxtaposition between the stories that we watch unfold as part of our protagonist’s journey and those auxiliary stories that we catch being told through the traditions around her. This is never more evident than in Claire’s first encounter of a Scottish bard in the gathering hall of Clan Mackenzie’s Castle Leoch, when these two channels converge into a singular story that foretells her future through the remembrance of a pagan folktale.</p>
+						<p>In the gathering hall, Claire listens to the bard’s story, sung in Gaelic as Jamie translates for her. His explanation of the tale is as follows:</p>
+						<p>"Now this one is about a man out late on a fairy hill on the Eve of Samhain who hears the sound of a woman singing sad and plaintive from the very rocks of the hill. ‘I am a woman of Balnain. The folk have stolen me over again, ‘the stones seemed to say. ‘I stood upon the hill, and wind did rise, and the sound of thunder rolled across the land. I placed my hands upon the tallest stone and traveled to a far, distant land where I lived for a time among strangers who became lovers and friends. But one day, I saw the moon came out and the wind rose once more. So I touched the stones and traveled back to my own land and took up again with the man I had left behind."</p>
+						<p>If you’re familiar with the Outlander series, this early foreshadowing will give you goosebumps.</p>
+					</div>
 				</div>
-			</div>
-			<div class="section right-section">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/cL6wkmEeoNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 45%;"></iframe>
-				<div>
-					<h1>Catholic-pagan Wedding</h1>
-					<p>Jaime and Claire’s wedding is a perfect example of this melding between Scottish religious traditions and Roman Catholicism. The ceremony takes place in a church, ministered by a Catholic priest, and includes typical Catholic marriage vows. However, after the vows, Dougal Mackenzie (a staunch Scottish patriot) initiates a Gaelic blood vow by drawing blood from Jaime’s and Claire’s wrists and then performs a variation of Celtic handfasting, in which the bridge and grooms’ forearms are bound together with a cloth. Dating back to the 12th century, handfasting in northern Scotland was considered to be an intermediary stage before marriage, and could often be a legally binding agreement of good faith before a final wedding.</p>
+				<div class="section">
+					<img src="craigh_na_dun.jpg" style="width: 47%;">
+					<div>
+						<p>In this moment, the plot of a modern television show and an age-old Scottish legend become one. Granted, the folktale is in actuality fabricated for the purpose of Claire’s circumstances, but in the scope of Outlander, the series of events described appears eerily similar to what Claire had just experienced. She too heard the sound of a woman singing, heard the call of the standing stones at Craigh na Dun, felt the winds rising around her, and traveled to a distance land where she would meet strangers that were tentatively becoming friends and perhaps even lovers. Claire realizes that this tale was likely fact rather than fiction, a detailing of the exact phenomenon that had happened to her. In a room full of Highlanders who had grown up hearing endless stories about the powers of standing stones, she the 20th century Protestant becomes the most convinced believer in the reality of this folktale.</p>
+						<p>This presents a perspective of pagan folklore that few other popular medias have been able to achieve. It’s one thing to understand the beliefs and the history behind the tales, but to experience it as we do through Claire’s story is another. As an audience, we must place ourselves in a state of openness to the reality of this folklore and we must think and feel about the show in a setting where magic exists and various pagan beliefs can be proved factual. It goes beyond suspension of disbelief, because we’re unsure what we should believe – what does exist in this world? The bard’s song occurs relatively early in the series, and at this point the audience is still unfamiliar with this new world and what boundaries Outlander puts in place. We’re unsure whether Outlander takes place in a world where all pagan folklores are factual, or if contemporary science is strictly followed and Claire is just having a dream. With such an environment of uncertainty, we feel similarly to Claire in this moment, wondering how much we know about this world, and if the part about returning home will also hold true for her.</p>
+						<p>When we typically learn about pagan folklore, we do so through the lens of our already long-established understandings of how the world around us works. We read about stone circles and appreciate the beauty in the stories, but consider them as just stories. In a setting as rich in supernatural forces as the 18th century Scottish Highlands, people who heard these stories surely understood them much differently than we do today. In Outlander, we’re able to take a step closer to what it would be like to hear these stories as more than stories, and on top of that to truly care about them, for they might give us insight into the fates of our beloved characters. This is one of the best examples in Outlander to exemplify Forbes and Mahan’s conclusion that “there is fluidity among the relationships between religion and popular culture,” in this case becoming one entity (21).</p>
+					</div>
 				</div>
-			</div>
-			<div class="section left-section">
-				<img src="claire_and_jaime_wedding.jpg" style="width: 47%;">
-				<div>
-					<p>However, by the 17th century, as the English sought to sponsor Roman Catholicism in their Scottish territories, the validity of Scottish marriages that strayed from Catholic canon were disputed. The handfasting and blood vow that we witness in Outlander likely would not have taken place if Castle Leoch was located more southernly, as many priests refused to minister weddings that deviated from the standard of the Catholic church. Yet, the priest of Jaime and Claire’s wedding is Scottish, and the ceremony takes place in the heart of Clan Mackenzie’s lands, allowing for a unique view into how these age-old traditions would blend with new cultural circumstances.</p> 
-					<p>Interestingly enough, in 1754, just 11 years after Jaime and Claire’s marriage takes place, Great Britain would pass the Marriage Act for the Better Preventing of Clandestine Marriage, which would require a formally sanctioned ceremony for a marriage to be recognized. After this date, handfasting quickly dissipated in Scottish practice, and would not significantly resurface again until the late 20th century as part of a Neopagan and Wiccan revival. What we observe in Outlander is a point of cultural and religious transition, in which there is confrontation between differing external values, being conformity through Roman Catholicism and preservation through Celtic traditions. In parallel, this act of marriage itself proposes a system of conformity in the form of strict faithfulness to one’s partner, as well as preservation in the form of continuing one’s love for another for the remainder of their life. These forces combine for a visually and sentimentally beautiful ceremony, and one that exemplifies Forbes and Mahan’s structure of “the impact on popular culture upon traditionally recognized religious groups… influencing how they operate” (14-15).</p>
+				<div class="section">
+					<img src="murtagh.jpg" style="width: 47%;">
+					<div>
+						<h2>Closer Look: Samhain</h2>
+						<p>Stone circle took place on Samhain. Samhain is XYZ. Interesting because time travel. Time between times like the mix of paganism and catholicism in between either's prominence. Samhain is the coexistance of both like ghosts and humans on halloween.</p>
+					</div>
 				</div>
-			</div>
-			<div class="section left-section">
-				<img src="murtagh.jpg">
-				<h2>Example 2</h2>
-				<p>Explanation of example 2.</p>
-			</div>
-			<div class="section right-section">
-				<img src="murtagh.jpg">
-				<h2>Example 3</h2>
-				<p>Explanation of example 3.</p>
+				<div class="section">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/cL6wkmEeoNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 75%;"></iframe>
+					<div>
+						<h1>Closer Look: Catholic-pagan Wedding</h1>
+						<p>Jaime and Claire’s wedding is a perfect example of this melding between Scottish religious traditions and Roman Catholicism. The ceremony takes place in a church, ministered by a Catholic priest, and includes typical Catholic marriage vows. However, after the vows, Dougal Mackenzie (a staunch Scottish patriot) initiates a Gaelic blood vow by drawing blood from Jaime’s and Claire’s wrists and then performs a variation of Celtic handfasting, in which the bridge and grooms’ forearms are bound together with a cloth. Dating back to the 12th century, handfasting in northern Scotland was considered to be an intermediary stage before marriage, and could often be a legally binding agreement of good faith before a final wedding.</p>
+					</div>
+				</div>
+				<div class="section">
+					<img src="claire_and_jaime_wedding.jpg" style="width: 47%;">
+					<div>
+						<p>However, by the 17th century, as the English sought to sponsor Roman Catholicism in their Scottish territories, the validity of Scottish marriages that strayed from Catholic canon were disputed. The handfasting and blood vow that we witness in Outlander likely would not have taken place if Castle Leoch was located more southernly, as many priests refused to minister weddings that deviated from the standard of the Catholic church. Yet, the priest of Jaime and Claire’s wedding is Scottish, and the ceremony takes place in the heart of Clan Mackenzie’s lands, allowing for a unique view into how these age-old traditions would blend with new cultural circumstances.</p> 
+						<p>Interestingly enough, in 1754, just 11 years after Jaime and Claire’s marriage takes place, Great Britain would pass the Marriage Act for the Better Preventing of Clandestine Marriage, which would require a formally sanctioned ceremony for a marriage to be recognized. After this date, handfasting quickly dissipated in Scottish practice, and would not significantly resurface again until the late 20th century as part of a Neopagan and Wiccan revival. What we observe in Outlander is a point of cultural and religious transition, in which there is confrontation between differing external values, being conformity through Roman Catholicism and preservation through Celtic traditions. In parallel, this act of marriage itself proposes a system of conformity in the form of strict faithfulness to one’s partner, as well as preservation in the form of continuing one’s love for another for the remainder of their life. These forces combine for a visually and sentimentally beautiful ceremony, and one that exemplifies Forbes and Mahan’s structure of “the impact on popular culture upon traditionally recognized religious groups… influencing how they operate” (14-15).</p>
+					</div>
+				</div>
+				<div class="section">
+					<img src="la_dame_blanche.jpg" style="width: 47%;">
+					<div>
+						<h1>Closer Look: La Dame Blanche</h1>
+						<p>Following a tumultuous few years in Scotland, the happily married Claire and Jaime decide to move to France in order to influence an upcoming Jacobite Rebellion against English rule in Scotland that would inevitably result in the collapse of clan sovereignty in the Highlands. One day in 1744, when Jaime is questioned about his wife by a prominent Jacobite supporter, he replies that she is La Dame Blanche, or the white lady. Those who overhear this claim quickly quiet down, and Jamie is not questioned about her any further. In French mythology, La Dame Blanche is a reclusive supernatural woman – a witch – that has the ability to command creatures to do their bidding. Rumor quickly spreads through their town and soon Claire is aware of her unfortunate reputation as a bonified Dame Blanche. This is justifiably at the fault of Jamie, who would again reinforce the title by claiming that any man who touched his wife would have their “privates blasted like a frostbitten apple and his soul will burn in hell forever” (ch40 DIA).</p>
+						<p>His later descriptions, however, tend to more closely align with the Celtic folklore of Dame Aliset, a Scottish white witch, closely associated with the mythological Crone Dryad of Death, which embodied destruction and annihilation. There is, naturally, much overlap between French and Gaelic storytelling about the figure of the white lady, and both Frenchmen and Highlanders come to respect Claire sensing the weight of the title, whether they’re fully familiar with either tale. In fact, in her meeting with King Louis XV of France, Claire is led to a mysterious room in which two men stand surrounded by guards, accused of sorcery. The King asks Claire to use her powers as La Dame Blanche to see the souls of the two men and decide who’s defense is truthful. While this power is not exactly a characteristic of either the historical French or Celtic mythology, it nonetheless emphasizes the value of superstition in pagan folklore (see Culture...). Claire, of course, is happy to oblige the King given that one of the men is (confidentially) her personal friend. She takes the opportunity to act the part and clear her friend's name, condemn an enemy to death, and all while avoiding the snake that King Louis had brought out for her to control.</p>
+					</div>
+				</div>
+				<div class="section">
+					<img src="la_dame_blanche_acting.jpg" style="width: 47%;">
+					<div>
+						<p>By the time they must leave France, Claire has fully embraced the role of La Dame Blanche, even using her reputation to disrupt a dinner party with prophetic (and distracting) visions. The title was convenient for many reasons, but I’d argue that her adoption of it had as much to do with her personal identification with the figure as it did with intimidation. In some sense, Claire is indeed a supernatural being to her 18th century counterparts. She comes from a distant land with unprecedented healing “powers” due to her extensive training as a combat nurse. As an Englishwoman who looks unlike any of her companions and doesn’t subscribe to the stereotypically-womanly roles she is assigned by unknowing strangers, she stands out as a fearless, perhaps dangerous outsider. Given these truths, it’s not hard to believe that Claire would feel like a dangerous outsider during her time in France. In taking on the role of La Dame Blanche, Claire is in fact representing her true identity more accurately. It allows her to wear her otherworldly persona out in the open, and offers her an excuse for any accidental comments that could expose her as a time traveler. Moreover, the figure embodies who she wants to be in this new world, a benevolent healer who has the power to change the destinies of those she cares about and do harm to those who oppose her and her husband. Being La Dame Blanche is, in a strange way, Claire being herself. In other words, through an understanding of the importance of superstition in French and Highlander religious culture during the 18th century, and by developing a reputation sourced from Celtic mythology, Claire is able to preserve her 20th century identity in a setting where it would otherwise be made invisible.</p>
+					</div>
+				</div>
+				<div class="section">
+					<img src="murtagh.jpg" style="width: 47%;">
+					<div>
+						<h1>Changelings</h1>
+						<p>What happened with changelings. What are changelings historically. People know it's not real but a way to cope with loss.</p>
+					</div>
+				</div>
+				<div class="section">
+					<img src="murtagh.jpg" style="width: 47%;">
+					<div>
+						<h1></h1>
+						<p>Leoghaire doll.</p>
+					</div>
+				</div>
+				<div class="section">
+					<img src="murtagh.jpg" style="width: 47%;">
+					<div>
+						<h1>Final Thoughts</h1>
+						<p>Paganism offers Claire 3 Bs. Belief to justify her transport, offer solace wwith changeling. Belonging to fit in culture as white witch. Behavior -. Outlander offers a unique perspective to paganism. Paganism as a reflection of popular culture/storytelling of the time.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	<body>
