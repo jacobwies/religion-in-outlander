@@ -161,17 +161,18 @@
 			<h1>Final Thoughts</h1>
 			<img src="nun.jpg" class="image-right" style="width: 47%;">
 			<p>While it may be difficult to discern how exactly Claire feels about her faith after all of her anomalous adventures, it’s undeniable that she has become more “religious” throughout the series, in that she refers to religion for answers and consolation much more frequently than in her life beforehand. The religious fusion which she has adopted is unlike anything she could have inherited in the 20th century alone, as it draws from the unique beliefs, behaviors, and sense of belonging of a Highlander culture that stood pronounced in history as a time of extraordinary transition. She challenged her firm adherence to science as she accepted the magic behind the supernatural events that happened to her on Samhain. She participated in a wedding ritual that was unknown to her yet ultimately formed one of her fondest memories and further altered her behavior and mannerisms towards others to personify a character in Celtic folklore that reflected her outsider identity. All the while she found a place in her Scottish and French communities as a distinguished healer who still respected the religious beliefs of her patients and neighbors.</p>
-			<p>Through these scenes, <em>Outlander</em> is able to accurately portray Celtic pagan religious traditions unlike any other source in popular media. It is alone in its perspective that allows the audience to understand the cultural and political contexts of paganism in the Scottish Highlands, doing so by placing us side by side with the regular people who constituted Clan MacKenzie. Rather than hearing anecdotes about paganism and Roman Catholicism separately and contrasting their many differences, we see their influence on Highlander life play out among these people, we root for them, and ultimately derive a much more complete understanding of the aspects of these practices that mattered most to them. When this approach is realized in the show, we see that pagan practices complimented Catholicism in many ways, allowing Highlanders to preserve their Scottish traditions and values while also enabling organized religion to play a larger role in the functions of society.</p>
+			<p id="end">Through these scenes, <em>Outlander</em> is able to accurately portray Celtic pagan religious traditions unlike any other source in popular media. It is alone in its perspective that allows the audience to understand the cultural and political contexts of paganism in the Scottish Highlands, doing so by placing us side by side with the regular people who constituted Clan MacKenzie. Rather than hearing anecdotes about paganism and Roman Catholicism separately and contrasting their many differences, we see their influence on Highlander life play out among these people, we root for them, and ultimately derive a much more complete understanding of the aspects of these practices that mattered most to them. When this approach is realized in the show, we see that pagan practices complimented Catholicism in many ways, allowing Highlanders to preserve their Scottish traditions and values while also enabling organized religion to play a larger role in the functions of society.</p>
 		</div>
 	<body>
 	<script>
 		$(document).ready(function() {
 			maxHeight = $(window).height();
+			$("#end").css("padding-bottom","250px");
 			$(document).scroll(function() {
 				var scroll = $(window).scrollTop();
 				$('.background-image').each(function( index ) {
 					height=scroll / (1+0.0035*index);
-					if(scroll <= maxHeight - document.body.clientHeight * 1.3){
+					if(scroll <= maxHeight - document.body.clientHeight * 1){
 						$(this).css("transform", 'translateY('+height+'px)');
 					}
 				});
