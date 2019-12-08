@@ -175,13 +175,12 @@
 	<body>
 	<script>
 		$(document).ready(function() {
-			maxHeight = $(window).height();
 			$("#end").css("padding-bottom","250px");
 			$(document).scroll(function() {
 				var scroll = $(window).scrollTop();
 				$('.background-image').each(function( index ) {
 					height=scroll / (1+0.0035*index);
-					if(scroll <= maxHeight - document.body.clientHeight * 0.95){
+					if(scroll <= $(window).height() - document.body.clientHeight * 1.5){
 						$(this).css("transform", 'translateY('+height+'px)');
 					}
 				});
